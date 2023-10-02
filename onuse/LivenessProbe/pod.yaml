@@ -1,3 +1,10 @@
+#* probe is to examine whether the pod is working properly.
+#* there are three kind of probes. 
+# 1. Startup probes: to know when a container has started
+# 2. Readiness probes: to know when a container is ready to accept traffic
+# !     a failing readiness probe will stop the application from receiving traffic.
+# 3. Liveness probes: indicates whether the code is running or not.
+# !     a failing liveness probe will restart the container.
 apiVersion: v1
 kind: Pod
 metadata:
