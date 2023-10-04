@@ -188,7 +188,8 @@ kubectl rollout undo [deploymentName] --to-revision=[revision#]
 # update service yaml file
 kubectl apply -f [service.yaml]
 
-
+# list the pods in kube-system
+kubectl get po -n kube-system
 
 
 
