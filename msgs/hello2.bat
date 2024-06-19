@@ -1,3 +1,3 @@
 echo method 2
-msg * "whf is a pig."
+msg * "stf is a pig."
 pause
